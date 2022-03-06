@@ -1,0 +1,50 @@
+/* max-width: 1024px */
+@media screen and (max-width: 1024px) { 
+  .news-feed-section .saasio-blog-text {
+    padding: 22px 30px 30px 0px
+  }
+  .news-feed-section .saasio-blog-text h3 {
+    font-size: 20px;
+  }
+  .recent-post-img-text .recent-post-text h3 {
+    font-size: 18px;
+  }
+}
+/**/
+/* max-width: 991px */
+@media screen and (max-width: 991px) { 
+  .blog-feed-img {
+    margin-bottom: 20px;
+  } 
+  .blog-feed-img-txt {
+    padding: 30px;
+  }
+  .saasio-blog-sidebar {
+    padding-left: 0;
+  }
+}
+/**/
+/* max-width: 767px  */
+@media screen and (max-width: 767px) { 
+  .saasio-blog-sidebar {
+    margin-top: 30px;
+  }
+  .saasio-breadcurmb-section {
+    padding: 150px 0px 100px;
+  }
+  .breadcurmb-title h2 {
+    font-size: 30px;
+  }
+  .blog-feed-share {
+    margin-top: 15px;
+    float: left !important;
+  }
+  .comment-inner-box {
+    padding: 15px;
+  }
+  .comment-author-img {
+    height: 80px;
+    width: 80px;
+  }
+}
+/**/

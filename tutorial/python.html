@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <title>Как сделать .exe файл из программы на Python | Детская онлайн-школа программирования SKY-ACADEMY </title>
+      <meta name="description" content=" Как сделать .exe файл из программы на Python. Py to exe. Детская онлайн-школа программирования для ребят 8 - 16 лет. Учим делать игры, сайты, мобильные приложения. "/>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="shortcut icon" href="/assets/img/favicon.ico" type="image/x-icon">
+      <link rel="icon" href="/assets/img/favicon.ico" type="image/x-icon">
+      <link rel="stylesheet" href="/assets/css/preloader.css">
+      <script type="text/javascript" src="/assets/js/jquery.js"></script>
+   </head>
+   <body class="saas-classic" data-spy="scroll" data-target=".s2-main-navigation" data-offset="80">
+      <div class="loading-preloader">
+         <div id="loading-preloader">
+            <div class="line_shape"></div>
+            <div class="line_shape"></div>
+            <div class="line_shape"></div>
+            <div class="line_shape"></div>
+            <div class="line_shape"></div>
+            <div class="line_shape"></div>
+            <div class="line_shape"></div>
+            <div class="line_shape"></div>
+            <div class="line_shape"></div>
+            <div class="line_shape"></div>
+         </div>
+      </div>
+      <div class="up">
+         <button id="scrollup" class="saas-classic-scrollup text-center"><i class="fas fa-angle-up"></i></button>
+      </div>
+      <header id="app-dm-header" class="app-dm-header-main">
+         <script>
+            $("#app-dm-header").load("../components/header.html");
+         </script>
+      </header>
+      <section id="news-feed" class="news-feed-section">
+         <div class="container">
+            <div class="blog-feed-content">
+               <div class="row">
+                  <div class="blog-details-img">
+                     <img class="lazy" data-src="/assets/img/tutorial/python.jpg" alt="Как сделать .exe файл из программы на python">
+                  </div>
+                  <div class="col-md-8">
+                     <div class="saasio-blog-details-content">
+                        <div class="blog-details-text dia-headline">
+                           <h2>Как сделать .exe файл из программы на Python</h2>
+                           <div class="saasio-post-meta">
+                              <a href="#"><i class="fas fa-calendar-alt"></i> Ноябрь 3, 2021</a>
+                           </div>
+                           <article>
+                              <strong>Чтобы создать .exe файл с Вашей python программы, нам необходимо сделать несколько простых действий:</strong> <br><br>
+                              <p>Через поиск ищем командную строку и открываем ее.</p>
+                              <img class="article-img lazy" data-src="/assets/img/tutorial/search.png" alt="Как сделать .exe файл из программы на python">
+                           </article>
+                           <article>
+                              <p>Что бы сделать .exe файл из программы на Python необходимо установить библиотеку <code>pyinstaller</code>.</p>
+                              <p>Пишем в командной строке: <code> pip install pyinstaller</code></p>
+                              <img class="article-img lazy" data-src="/assets/img/tutorial/cmd.png" alt="Как сделать .exe файл из программы на python">
+                           </article>
+                           <article>
+                              <p>После переходим в папку с Вашим файлом .py в командной строке:</p>
+                              <p>Запускаем команду <code>pyinstaller</code> не забывая указать имя вашего скрипта.</p>
+                              <p>
+                                 <code>
+                                    pyinstaller --onefile 
+                                    <your_script_name>
+                                    .py
+                                 </code>
+                              </p>
+                              <img class="article-img lazy" data-src="/assets/img/tutorial/cmd2.png" alt="Как сделать .exe файл из программы на python">
+                           </article>
+                           <article>
+                              <p><strong>Готово!</strong> В папке появится папка src и там будет .exe файл.</p>
+                           </article>
+                           <div class="blog-details-tag clearfix"></div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="col-md-4">
+                     <div class="saasio-blog-sidebar">
+                        <div class="side-bar-widget">
+                           <div class="category-widget dia-headline ul-li-block">
+                              <h3 class="widget-title-2">Другие статьи</h3>
+                              <div class="recent-post-area">
+                                 <div class="recent-post-img-text">
+                                    <div class="recent-post-img float-left">
+                                       <img class="lazy" data-src="/assets/img/tutorial/robloxThumb.png" alt="Как сделать .exe файл из программы на python">
+                                    </div>
+                                    <div class="recent-post-text dia-headline">
+                                       <h6><a href="/tutorial/roblox">Инструкция по установке Roblox Studio на Windows</a></h6>
+                                       <span class="rec-post-meta"><a href="#">Ноябрь 3, 2021</a></span>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section id="dia-footer" class="dia-footer-section position-relative">
+         <script>
+            $("#dia-footer").load("../components/footer.html");
+         </script>
+      </section>
+      <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+      <link rel="stylesheet" href="/assets/css/all.min.css"/>
+      <link rel="stylesheet" href="/assets/css/style.css">
+      <link rel="stylesheet" href="/assets/css/media.css">
+      <link rel="stylesheet" href="/assets/css/blog.css">
+      <link rel="stylesheet" href="/assets/css/mediaBlog.css">
+      <script type="text/javascript" src="/assets/js/jquery.lazy.min.js"></script>
+      <script type="text/javascript" src="/assets/js/main.js"></script>
+   </body>
+</html>

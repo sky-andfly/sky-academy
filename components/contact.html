@@ -1,0 +1,88 @@
+<!--<div class="ei-newslatter-box position-relative ei-newslatter-box_clear">
+   <div class="container">
+      <div class="section_title text-center">
+         <h2>Оставь свои данные для связи с нами!</h2>
+         <p></p>
+      </div>
+      <div class="sa-contact-inner-form">
+         <form id="ajax_form" method="post" action="">
+            <div class="row">
+               <div class="col-12">
+                  <div class="form-tooltip" id="contact-name" data-trigger='manual'>
+                     <input name="name" placeholder="Ваше имя" type="text" autocomplete="on" value="">
+                  </div>
+               </div>
+               <div class="col-lg-6 col-12">
+                  <div>
+                     <div class="form-tooltip" id="contact-email" data-trigger='manual'>
+                        <input name="email" placeholder="Ваш Email" type="email" autocomplete="on" value="">
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-6 col-12">
+                  <div>
+                     <div class="form-tooltip" id="contact-phone" data-trigger='manual'>
+                        <input name="phone" placeholder="Ваш номер телефона" type="number" autocomplete="on" value="">
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="sa-contact-inner-btn text-center">
+               <div class="saas_btn">
+                  <button id="btn" class="saas_btn-link"><i class="fas fa-paper-plane"></i> <span id="btn_text">Отправить</span></button>
+               </div>
+            </div>
+         </form>
+      </div>
+   </div>
+</div>
+<div class="ei-footer-shape3 position-absolute"><img src="/assets/img/shape/eimap.png"
+   alt="курсы веб дизайна для детей | Roblox Studio|Python| айти школа Киев| айти школа Украина | Scratch | Скретч для детей | индивидуальные уроки">
+</div>-->
+<section id="str-newslatter" class="str-newslatter-section">
+    <div class="container">
+        <div class="str-newslatter-content position-relative" data-background="assets/img/mainsection/03.jpg" style="background-image: url(&quot;assets/img/mainsection/03.jpg&quot;);">
+            <div class="str-mail-icon position-absolute"><img src="assets/img/icons/mail.png" alt=""></div>
+            <div class="str-newslatter-text str-headline pera-content text-center">
+                <h2>Запишитесь прямо сейчас!</h2>
+                <p>Оставь свои данные для связи с нами
+                </p>
+            </div>
+            <div class="str-newslatter-form position-relative container">
+                <form id="ajax_form" method="post" action="">
+                    <div class="row">
+                        <div class="col-12 col-lg-6 mt-3">
+                           <div class="form-tooltip" id="contact-name" data-trigger='manual'>
+                              <input name="name" type="text" placeholder="Ваше имя">
+                           </div>
+                        </div>
+                        <div class="col-12 col-lg-6 mt-3">
+                           <div class="form-tooltip" id="contact-phone" data-trigger='manual'>
+                            <input id="mask__input_tel" name="phone" placeholder="" type="tel">
+                         </div>
+                        </div>
+                    </div>
+                    <div class="row mt-5">
+                        <div class="col-12 d-flex justify-content-center">
+                            <div class="nws-button  text-capitalize">
+                                <button id="btn" class="hover-btn"><i class="fas fa-paper-plane"></i> <span id="btn_text">Отправить</span></button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js" integrity="sha512-pHVGpX7F/27yZ0ISY+VVjyULApbDlD0/X0rgGbTqCE7WFW5MezNTWG/dnhtbBuICzsd0WQPgpE4REBLv+UqChw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script type="text/javascript" src="/assets/js/intlTelInput.min.js"></script>
+<script>
+$("#mask__input_tel").intlTelInput({
+    autoFormat: false,
+    autoHideDialCode: false,
+    nationalMode: false,
+    preferredCountries: [ "ru" ],
+    utilsScript: "/assets/js/utils.js"
+});
+
+</script>

@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://sky-academy.online/sitemap.xml
